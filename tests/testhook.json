@@ -1,0 +1,39 @@
+{
+  "leads": {
+    "status": [
+      {
+        "id": 26066553,
+        "name": "Тест,+удалю+сам",
+        "status_id": "142",
+        "old_status_id": "17944876",
+        "price": "0",
+        "responsible_user_id": "2852878",
+        "last_modified": "1673946385",
+        "modified_user_id": "2852878",
+        "created_user_id": "2852878",
+        "date_create": "1673858479",
+        "pipeline_id": "1453099",
+        "account_id": "16700680",
+        "custom_fields": [
+          {
+            "id": "467289",
+            "name": "Менеджер+по+продажам",
+            "values": [{ "value": "Нефедова+Алена", "enum": "917607" }]
+          },
+          {
+            "id": "957901",
+            "name": "test_id",
+            "values": [{ "value": "26066553" }]
+          }
+        ],
+        "created_at": "1673858479",
+        "updated_at": "1673946385"
+      }
+    ]
+  },
+  "account": {
+    "subdomain": "unirock",
+    "id": "16700680",
+    "_links": { "self": "https://unirock.amocrm.ru" }
+  }
+}

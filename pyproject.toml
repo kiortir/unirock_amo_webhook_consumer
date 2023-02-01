@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "webhook-puppeteer"
+version = "0.1.0"
+description = ""
+authors = ["Michael <mpgg2000@gmail.com>"]
+readme = "README.md"
+# packages = [{include = "webhook_puppeteer"}]
+
+[tool.poetry.scripts]
+server = "webhook_puppeteer.main:run"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.89.1"
+httpx = "^0.23.3"
+qsparser = "^1.1.0"
+pytest = "^7.2.1"
+pytest-asyncio = "^0.20.3"
+ujson = "^5.7.0"
+types-ujson = "^5.7.0.0"
+uvicorn = "^0.20.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
